@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div data-aos="zoom-out-down">
-        <div className="navbar bg-base-100 fixed shadow-md">
+        
+        <div className="navbar bg-white fixed top-0 z-10  shadow-md">
         <div className="navbar-start px-7">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,10 +31,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          
         </div>
       </div>
-    </div>
+     
     );
 };
 
